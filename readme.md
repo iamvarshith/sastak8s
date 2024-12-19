@@ -14,13 +14,13 @@ Setup
 
 Clone the repository:
 
-    bash
+    # bash
     git clone <repository-url>
     cd <project-directory>
 
 Install dependencies:
 
-    bash
+    # bash
     pip install -r requirements.txt
 
 Set up environment variables:
@@ -43,7 +43,7 @@ Initialize the database:
 Running the Application
 Start the FastAPI server:
 
-    bash
+    # bash
     uvicorn app.main:app --reload
 
 The API will be available at http://localhost:8000.
@@ -59,7 +59,7 @@ Once the server is running, you can access the API documentation at:
 
 Run tests using pytest:
 
-    bash
+    # bash
     pytest
 
 ## Project Structure
@@ -83,5 +83,5 @@ Run tests using pytest:
 
 The project includes a Dockerfile and docker-compose.yml for containerized deployment. To run using Docker:
 
-    bash
+    # bash
     docker-compose up --build
